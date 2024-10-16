@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.profile-picture {
+    width: 200px; height: 200px; border-radius: 50%;
+}
+
+.bio {
+    font-size: 18px;
+    margin: 20px;
+}
+
+#skills {
+    padding: 2em;
+}
+
+#skills-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#skills-list li {
+    margin-bottom: 10px;
+}
+
+#show-more {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#show-more:hover {
+    background-color: #444;
+}
+
+#more-skills {
+    display: none;
+}
+
+#more-skills li {
+    margin-bottom: 10px;
+}
+
+#projects {
+    padding: 2em;
+}
+
+#projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.project-link:hover {
+    color: #444;
+}
+
+#contact {
+    padding: 2em;
+ }
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label {
+    margin-bottom: 10px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact-form button[type="submit"]:hover {
+    background-color: #444;
+}
+
+#success-message, #error-message {
+    display: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#success-message {
+    background-color: #0f0;
+}
+
+#error-message {
+    background-color: #f00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="home">
+        <h1>Karthikeya</h1>
+        <p>Web Developer</p>
+        <div>
+            <img class="profile-picture"  src="me.jpeg" alt="Profile Picture">
+        </div>
+        <div class="bio">
+            <p>Short bio about yourself.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <button id="show-more">Show More</button>
+        <ul id="more-skills" class="hidden">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1: Portfolio Builder</h3>
+                <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript.</p>
+                <a href="portfolio.html" class="project-link">View Project</a>
+            </li>
+            <li>
+                <h3>Project 2: Task Manager</h3>
+                <p>An efficient task management web app developed using React and Node.js.</p>
+                <a href="taskmanager.html" class="project-link">View Project</a>
+            </li>
+            <li>
+                <h3>Project 3: Weather Dashboard</h3>
+                <p>A dynamic weather forecasting app created with the OpenWeather API and JavaScript.</p>
+                <a href="weatherdashboard.html" class="project-link">View Project</a>
+            </li>
+            <li>
+                <h3>Project 4: Blogging Platform</h3>
+                <p>A full-stack blogging platform where users can create, edit, and publish blog posts.</p>
+                <a href="blogplatform.html" class="project-link">View Project</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            <br>
+            <button id="submit">Send Message</button>
+        </form>
+        <div id="success-message" class="hidden">Thank you for your message!</div>
+        <div id="error-message" class="hidden">Please enter a valid email.</div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/karthikeya/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/karthikeya" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://twitter.com/karthikeya" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
